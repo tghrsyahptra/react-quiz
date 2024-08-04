@@ -20,7 +20,7 @@ const Options = ({ question, dispatch, answer }) => {
       {options.map((option, index) => (
         <button
           className={`btn btn-option ${
-            answer === option ? "answer" : "" 
+            answer === option ? "answer" : ""
           } ${
             hasAnswered
               ? option === question.correct_answer
